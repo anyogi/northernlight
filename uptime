@@ -1,0 +1,2 @@
+UP=`uptime | awk -F " " '{print $3}'`
+echo "The server is up since $UP hours"
