@@ -4,4 +4,4 @@ NCPU=`lscpu | sed -n '4p'| awk -F " " '{print $2}'`
 echo " Number of CPU's in the server is/are $NCPU"
 NAME=`hostname`
 echo "Server hostname is $NAME"
-test 123 
+test 123456
